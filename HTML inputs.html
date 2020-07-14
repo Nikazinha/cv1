@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Inputs</title>
+</head>
+
+<body>
+  <br>
+  <form class="" action="index.html" method="post">
+    <label for="id">User ID:</label>
+    <input type="text" id="id" name="id" />
+
+    <input type="reset" value="Redefinir">
+    <input type="submit" value="Enviar">
+    <p>
+      <label for="">Password</label>
+      <input type="password" name="submit" />
+      <input type="submit" name="submit" /><br><br>
+      <label for="">Se desejar se inscrever no canal para receber nossos e-mails, clique aqui</label>
+      <input type="checkbox" name="" /><br>
+      <label for="">Favor nos enviar seu Curriculum em anexo caso deseje trabalhar conosco. (são aceitos arquivos em: DOC; PPT ou PDF)</label><br>
+      <input type="file" id="docpicker" accept=".doc,.docx,.pptx,.pdf"><br><br>
+      <label for="start">Data de início:</label>
+
+      <input type="date" id="start" name="trip-start" value="" min="2019-01-01" max="2020-12-31">
+      <input type="date" name="submit" /><br>
+
+      <input type="date" value=""><br><br>
+
+      <input type="range" min="0" max="100"><br>
+
+        <input type="range" list="tickmarks">
+
+        <datalist id="tickmarks">
+          <option value="0" label="0%"></option>
+          <option value="10"></option>
+          <option value="20"></option>
+          <option value="30"></option>
+          <option value="40"></option>
+          <option value="50" label="50%"></option>
+          <option value="60"></option>
+          <option value="70"></option>
+          <option value="80"></option>
+          <option value="90"></option>
+          <option value="100" label="100%"></option>
+        </datalist>
+      </p>
+      <p>
+        <label for="site-search">Pesquisar no site:</label>
+        <input type="search" id="site-search" name="q" aria-label="Pesquisar no conteúdo do site">
+
+        <button>Pesquisar</button>
+      </p>
+
+
+  </form>
+  <br>
+  <a href="index.html"><strong>Voltar a página principal</strong></a>
+</body>
+
+</html>
