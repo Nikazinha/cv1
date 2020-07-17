@@ -2,10 +2,24 @@ body {
 background-color: #ffeadb
 }
 
-@font-face {
-  font-family: "Helvetica-25-ultra-light";
-  font-face
-  src: url("fonts/helvetica-25-ultra-light.otf") format("otf");
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  margin-right: 50px;
+}
+
+
+
+table{
+  font-family: 'Roboto', sans-serif;
 }
 
 hr {
